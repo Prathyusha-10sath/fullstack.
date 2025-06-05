@@ -1,0 +1,23 @@
+.link ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: baseline;
+    gap: 25px;
+}
+.text{
+    justify-self: right 30px;
+}
+.half-top{
+    height :350px;
+    background-color: midnightblue;
+}
+.grid-container{
+     display:grid;
+     grid-template:50px/50px 50px 50px 50px;
+     row-gap: 20px;
+     column-gap: 20px;
+}
+.grid-container div{
+    
+}
